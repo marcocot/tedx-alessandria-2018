@@ -1,6 +1,6 @@
 PANDOC=pandoc
 OPTS=--toc
-SRCS=index.md bio.md
+SRCS=$(wildcard *.md)
 
 all: html
 
