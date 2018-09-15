@@ -6,7 +6,7 @@ title: IA, come un computer può imparare a dialogare
 
 ## Machine learning
 
-Probabilmente la maggior parte di voi avranno già sentito il termine *Algoritmo*, è questo il metodo con cui fin ora abbiamo "insegnato" ad un computer come risolvere un problema: io, in quanto conoscitore della materia, ti dico quali sono gli step per risolvere un problema e tu computer hai il compito di eseguire questi step per darmi il risultato che mi aspetto (sperando che sia corretto!).
+Probabilmente la maggior parte di voi avranno già sentito il termine *Algoritmo*, è questo il metodo con cui fin ora abbiamo "insegnato" ad un computer come risolvere un problema: io, in quanto conoscitore della materia, ti "impartisco" gli step per risolvere un problema e tu, computer, hai il compito di eseguire questi step per darmi il risultato che mi aspetto (sperando che sia corretto!).
 
 Se, ad esempio, mi aspetto che il mio computer sappia fare correttamente una somma di due numeri interi dovrò impartirgli le corrette regole matematiche in modo che poi esso sia in grado di darmi il corretto output. Nel momento in cui il nostro computer riceverà in input un valore che è fuori dai possibili *input* attesi ci dirà semplicemente "non so come fare questa operazione".
 
@@ -24,23 +24,24 @@ In realtà la teoria è molto più semplice, almeno a parole, di quello che potr
 
 ![Neurone](https://upload.wikimedia.org/wikipedia/commons/e/eb/Neurone.png)
 
-Questo è un *neurone*: uno dei mattoni fondamentali del nostro sistema nervoso, è grazie ad esso che noi siamo in grado di sviluppare pensieri, parole, leggere. Queste ed altre mille straordinarie capacità degli esseri umani dipendono da questi minuscoli mattoncini, basti pensare che nel nostro cervello abbiamo quasi 100 miliardi di questi mattoncini. Solo per fare un confronto, si ipotizza che in tutta la Via Lattea ci siano poco più del doppio di stelle. Miliardi di queste cellule si scambiano costantemente impulsi elettrici e formano continuamente nuove connessioni tra di loro.
+Questo è un *neurone*: uno dei mattoni fondamentali del nostro sistema nervoso. E' grazie ad esso che noi siamo in grado di sviluppare pensieri, parole, leggere. Queste ed altre mille straordinarie capacità degli esseri umani dipendono da questi minuscoli mattoncini: basti pensare che nel nostro cervello abbiamo quasi 100 miliardi di questi mattoncini. Solo per fare un confronto, si ipotizza che in tutta la Via Lattea ci siano poco più del doppio di stelle. Miliardi di queste cellule si scambiano costantemente impulsi elettrici e formano continuamente nuove connessioni tra di loro.
 
-Quello che hanno fatto gli scienziati è di creare un modello *matematico* di un neurone, trasformandono poi in un programma per computer:
+Quello che hanno fatto gli scienziati è creare un modello *matematico* di un neurone, trasformandono poi in un programma per computer:
 
 ![Machine learning](https://upload.wikimedia.org/wikipedia/commons/b/b6/Artificial_neural_network.png)
 
-Quello che siamo in grado di ottenere è un computer capace di imparare, all stesso modo di come siamo capaci noi esseri umani: mettendo il nostro computer di fronte ad un nuovo problema questo potrà imparare e trovare quale è il procedimento migliore per raggiungere l'output che ci aspettiamo.
+Quello che siamo in grado di ottenere è un computer capace di imparare e di avere il senso della percezione, allo stesso modo di come siamo capaci noi esseri umani: mettendo il nostro computer di fronte ad un nuovo problema questo potrà trovare quale è il procedimento migliore per raggiungere l'output che ci aspettiamo.
 
 Probabilmente non ce ne rendiamo conto, ma questa tecnologia è già nella nostra vita quotidiana:
 
 - Quanti hanno perso ore chiacchierando con Siri?
 - Chi non ha mai chiesto utilizzato "OK Google" per mandare un SMS?
-- Vi è mai capitato di pubblicare una foto su Facebook e accorgerci che i soggetti fotografati fossero già identificati senza il nostro intervento?
+- Vi è mai capitato di pubblicare una foto su Facebook e accorgervi che i soggetti fotografati fossero già identificati senza il nostro intervento?
 
 ## Come un computer può imparare ad ascoltarci
 
 [Estratto video](https://www.youtube.com/watch?v=lXUQ-DdSDoE)
+*Dal minuto 1.22 al minuto 2.20*
 
 Quello che abbiamo appena visto è la dimostrazione di un nuovo prodotto sviluppato da Google presentata a maggio: in questo caso il nostro computer, in maniera completamente autonoma, è stato capace di telefonare ad una persona reale e prenotarci un taglio di capelli da un parrucchiere.
 
@@ -51,13 +52,19 @@ Forse molti dettagli possono passare inosservate, basta pensare che in questo ca
 - Capire quali sono state le risposte della persona
 - Dare un contesto
 - Reagire anche a risultati inattesi
-- Sintetizzare una voce umana in modo
+- Sintetizzare una voce umana in modo verosimilmente naturale
 
 L'idea che un computer potesse tradurre un testo scritto in voce non è esattamente nulla di nuovo, le prime macchine capaci di farlo risalgono alla fine del 1700. Quello che è cambiata è la tecnologia: fin ora si doveva rinchiudere una persona per giorni in sala di registrazione e registrare ogni singola parola, frase o discorso che poi avremmo voluto riutilizzare.
 
+Oggi invece, grazie agli algoritmi di *machine learning*, un computer è in grado di sintetizzare la voce umana (con i corretti accenti, inflessioni, pause etc) partendo da pochi esempi ascoltati.
+
+## Come un computer può imparare a guardare
+
+Un altro *senso* che il computer può acquisire è anche quello della vista: oggi in agricoltura si stanno sperimentando dei droni capaci, dall'alto, di fotografare le coltivazioni e riconoscere i primi sintomi di malattia delle piante o di infestazioni e autonomamente decidere quale è il trattamento migliore.
+
 ## Dilemmi morali
 
-Come tutti i cambiamenti, anche questo si porta dietro il fardello di dilemmi e incertezze morali.
+Come tutti i cambiamenti, anche questo si porta dietro un fardello di dilemmi e incertezze morali.
 
 Tesla sta sperimentando dei nuovi tir per il trasporto su strada a guida autonoma e probabilmente in un futuro potremmo veder sparire la categoria degli autotrasportatori, sostituiti da macchine in grado di trasportare merci da Bari a Rotterdam senza mai fermarsi.
 
