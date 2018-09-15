@@ -1,4 +1,5 @@
 PANDOC=pandoc
+ASPELL=aspell
 OPTS=--toc
 SRCS=$(wildcard *.md)
 
@@ -13,6 +14,9 @@ odt: $(SRCS:.md=.odt)
 
 %.odt: %.md
 	$(PANDOC) $(OPTS) -s -o build/$@ $<
+
+spellcheck:
+	$(foreach var, $(SRCS), $(ASPELL) check -d it $(var);)
 
 clean:
 	@rm -f build/*.html build/*.odt
